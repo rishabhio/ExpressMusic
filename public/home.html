@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+	<title> Express Music Server </title>
+	<style>
+		body {
+		
+			padding: 30px;
+			background: url('./bg-musical.png');
+			text-align: center;
+		}
+		.contents{
+			background: #fff;
+			padding: 20px;
+			margin: auto;
+			opacity: 0.7;
+			text-align: center;
+		}
+		.contents button{
+			width: 100px;
+			opacity: 0.9;
+			background: #000;
+		}
+		h1 {
+			color: #333333;
+			font-size: 60px;
+		}
+		h2 {
+			color: #2e2e2e;
+			font-size: 28px;
+		}
+		a {
+			color: #2f2f2f;
+			font-size: 18px
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container contents">
+	<h1>  Express Musical </h1>
+	<hr>
+	<h2> Fast Music to Keep you surrounded with Melodic Beats </h2>
+	<hr>
+	<a href="https://rishabh.io">  Rishabh IO	</a> 
+	
+	
+		<div class="row">
+			<div class="col-md-4">
+				<img class="img img-responsive" src="song.png"/>
+				<h2> hello.mp3 </h2>
+				
+				<a href="http://localhost:3003/music?id=hello.mp3" target="_blank"> <button class="btn btn-success"> Play </button>	</a> <hr>
+				<a href="http://localhost:3003/download?id=hello.mp3"  target="_blank"> <button class="btn btn-success"> Downnload </button> </a>
+			</div>
+			<div class="col-md-4">
+			<img class="img img-responsive" src="song.png"/>
+				<h2> divine.mp3 </h2>
+				<a href="http://localhost:3003/music?id=divine.mp3" target="_blank"> <button class="btn btn-success"> Play </button>	</a> <hr>
+				<a href="http://localhost:3003/download?id=divine.mp3"  target="_blank"> <button class="btn btn-success"> Downnload </button> </a>
+			</div>
+			<div class="col-md-4">
+			<img class="img img-responsive" src="song.png"/>
+				<h2> beginning.mp3 </h2>
+				<a href="http://localhost:3003/music?id=beginning.mp3" target="_blank"> <button class="btn btn-success"> Play </button>	</a> <hr>
+				<a href="http://localhost:3003/download?id=beginning.mp3"  target="_blank"> <button class="btn btn-success"> Downnload </button> </a>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
+

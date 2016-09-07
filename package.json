@@ -1,0 +1,30 @@
+{
+  "name": "expressmusic",
+  "version": "1.0.0",
+  "description": "Simple ExpressJS app to server music for listening and downloading",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhio/ExpressMusic.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "serve",
+    "music",
+    "in",
+    "express"
+  ],
+  "author": "@rishabhio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabhio/ExpressMusic/issues"
+  },
+  "homepage": "https://github.com/rishabhio/ExpressMusic#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
